@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const { EMAIL_ID , EMAIL_PASS} = require('./serverConfig');
+console.log(EMAIL_ID, EMAIL_PASS);
 
 // creating a transporter
 const sender = nodemailer.createTransport({
